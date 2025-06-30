@@ -7,10 +7,10 @@ $QUADROS = 1..7
 $OUTPUT = "resultados.txt"
 
 # Limpa ou cria arquivo de resultados
-"Resultados da simulação:" | Out-File -FilePath $OUTPUT -Encoding UTF8
+"Resultados da simulacao:" | Out-File -FilePath $OUTPUT -Encoding UTF8
 "==========================" | Out-File -FilePath $OUTPUT -Append -Encoding UTF8
 
-Write-Host "Iniciando simulações..."
+Write-Host "Iniciando simulacoes..."
 
 # Loop pelos arquivos
 foreach ($ARQ in $ARQUIVOS) {
@@ -29,5 +29,5 @@ foreach ($ARQ in $ARQUIVOS) {
     }
 }
 
-"`nSimulações concluídas! Verifique o arquivo $OUTPUT" | Out-File -FilePath $OUTPUT -Append -Encoding UTF8
-Write-Host "`nSimulações concluídas! Verifique o arquivo $OUTPUT"
+"`nConcluido! Verifique o arquivo $OUTPUT" | Out-File -FilePath $OUTPUT -Append -Encoding UTF8
+Write-Host "`nConcluido! Verifique o arquivo $OUTPUT"

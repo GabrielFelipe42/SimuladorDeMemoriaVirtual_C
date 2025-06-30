@@ -71,7 +71,7 @@ int simula_lru(int frames, int* refs, int n_refs) {
     return page_faults;
 }
 
-// Ótimo (OPT)
+// Otimo (OPT)
 int simula_opt(int frames, int* refs, int n_refs) {
     int memoria[frames];
     int page_faults = 0;
@@ -103,7 +103,7 @@ int simula_opt(int frames, int* refs, int n_refs) {
                     }
                 }
 
-                if (distancia == -1) { // Nunca mais será usada
+                if (distancia == -1) { // Nunca mais sera usada
                     substitui_index = j;
                     break;
                 }
