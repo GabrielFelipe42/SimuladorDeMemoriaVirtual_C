@@ -1,34 +1,34 @@
-﻿Resultados da simulaÃ§Ã£o:
+﻿Resultados da simulacao:
 ==========================
 
 Arquivo: referencias1.txt
 --------------------------
-    1 quadros,      24 refs: FIFO:    20 PFs, LRU:    20 PFs, OPT:    20 PFs
-    2 quadros,      24 refs: FIFO:    17 PFs, LRU:    17 PFs, OPT:    15 PFs
-    3 quadros,      24 refs: FIFO:    15 PFs, LRU:    14 PFs, OPT:    11 PFs
-    4 quadros,      24 refs: FIFO:    12 PFs, LRU:    11 PFs, OPT:     9 PFs
-    5 quadros,      24 refs: FIFO:    10 PFs, LRU:     9 PFs, OPT:     8 PFs
-    6 quadros,      24 refs: FIFO:     8 PFs, LRU:     8 PFs, OPT:     8 PFs
-    7 quadros,      24 refs: FIFO:     8 PFs, LRU:     8 PFs, OPT:     8 PFs
+    1 quadros,      24 refs, FIFO:    20 PFs, LRU:    20 PFs, OPT:    20 PFs
+    2 quadros,      24 refs, FIFO:    17 PFs, LRU:    17 PFs, OPT:    15 PFs
+    3 quadros,      24 refs, FIFO:    15 PFs, LRU:    14 PFs, OPT:    11 PFs
+    4 quadros,      24 refs, FIFO:    12 PFs, LRU:    11 PFs, OPT:     9 PFs
+    5 quadros,      24 refs, FIFO:    10 PFs, LRU:     9 PFs, OPT:     8 PFs
+    6 quadros,      24 refs, FIFO:     8 PFs, LRU:     8 PFs, OPT:     8 PFs
+    7 quadros,      24 refs, FIFO:     8 PFs, LRU:     8 PFs, OPT:     8 PFs
 
 Arquivo: referencias2.txt
 --------------------------
-    1 quadros,      30 refs: FIFO:    30 PFs, LRU:    30 PFs, OPT:    30 PFs
-    2 quadros,      30 refs: FIFO:    30 PFs, LRU:    30 PFs, OPT:    24 PFs
-    3 quadros,      30 refs: FIFO:    30 PFs, LRU:    30 PFs, OPT:    19 PFs
-    4 quadros,      30 refs: FIFO:    22 PFs, LRU:    24 PFs, OPT:    14 PFs
-    5 quadros,      30 refs: FIFO:    24 PFs, LRU:    18 PFs, OPT:    10 PFs
-    6 quadros,      30 refs: FIFO:     6 PFs, LRU:     6 PFs, OPT:     6 PFs
-    7 quadros,      30 refs: FIFO:     6 PFs, LRU:     6 PFs, OPT:     6 PFs
+    1 quadros,      30 refs, FIFO:    30 PFs, LRU:    30 PFs, OPT:    30 PFs
+    2 quadros,      30 refs, FIFO:    30 PFs, LRU:    30 PFs, OPT:    24 PFs
+    3 quadros,      30 refs, FIFO:    30 PFs, LRU:    30 PFs, OPT:    19 PFs
+    4 quadros,      30 refs, FIFO:    22 PFs, LRU:    24 PFs, OPT:    14 PFs
+    5 quadros,      30 refs, FIFO:    24 PFs, LRU:    18 PFs, OPT:    10 PFs
+    6 quadros,      30 refs, FIFO:     6 PFs, LRU:     6 PFs, OPT:     6 PFs
+    7 quadros,      30 refs, FIFO:     6 PFs, LRU:     6 PFs, OPT:     6 PFs
 
 Arquivo: referencias3.txt
 --------------------------
-    1 quadros,   10000 refs: FIFO: 10000 PFs, LRU: 10000 PFs, OPT: 10000 PFs
-    2 quadros,   10000 refs: FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  9474 PFs
-    3 quadros,   10000 refs: FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  8948 PFs
-    4 quadros,   10000 refs: FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  8422 PFs
-    5 quadros,   10000 refs: FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  7896 PFs
-    6 quadros,   10000 refs: FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  7370 PFs
-    7 quadros,   10000 refs: FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  6845 PFs
+    1 quadros,   10000 refs, FIFO: 10000 PFs, LRU: 10000 PFs, OPT: 10000 PFs
+    2 quadros,   10000 refs, FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  9474 PFs
+    3 quadros,   10000 refs, FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  8948 PFs
+    4 quadros,   10000 refs, FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  8422 PFs
+    5 quadros,   10000 refs, FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  7896 PFs
+    6 quadros,   10000 refs, FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  7370 PFs
+    7 quadros,   10000 refs, FIFO: 10000 PFs, LRU: 10000 PFs, OPT:  6845 PFs
 
-SimulaÃ§Ãµes concluÃ­das! Verifique o arquivo resultados.txt
+Concluido! - Arquivo resultados.txt

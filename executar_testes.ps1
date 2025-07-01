@@ -1,6 +1,5 @@
 # Script PowerShell para automatizar os testes do simulador de memória virtual
 
-# Configurações
 $EXEC = ".\simula_memoria_virtual.exe"
 $ARQUIVOS = @("referencias1.txt", "referencias2.txt", "referencias3.txt")
 $QUADROS = 1..7
@@ -23,11 +22,10 @@ foreach ($ARQ in $ARQUIVOS) {
     foreach ($QTD in $QUADROS) {
         Write-Host "  Testando com $QTD quadros..."
         
-        # Executa o simulador
         $RESULT = Get-Content $ARQ | & $EXEC $QTD
         $RESULT | Out-File -FilePath $OUTPUT -Append -Encoding UTF8
     }
 }
 
-"`nConcluido! Verifique o arquivo $OUTPUT" | Out-File -FilePath $OUTPUT -Append -Encoding UTF8
-Write-Host "`nConcluido! Verifique o arquivo $OUTPUT"
+"`nConcluido! - Arquivo $OUTPUT" | Out-File -FilePath $OUTPUT -Append -Encoding UTF8
+Write-Host "`nConcluido - Arquivo $OUTPUT"

@@ -141,7 +141,7 @@ int main(int argc, char* argv[]) {
     int pf_lru  = simula_lru(num_quadros, referencias, total_refs);
     int pf_opt  = simula_opt(num_quadros, referencias, total_refs);
 
-    printf("%5d quadros, %7d refs: FIFO: %5d PFs, LRU: %5d PFs, OPT: %5d PFs\n",
+    printf("%5d quadros, %7d refs, FIFO: %5d PFs, LRU: %5d PFs, OPT: %5d PFs\n",
            num_quadros, total_refs, pf_fifo, pf_lru, pf_opt);
 
     return 0;
